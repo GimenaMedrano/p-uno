@@ -1,0 +1,15 @@
+C:\Users\gimen\OneDrive\Escritorio\p_uno\bin\Debug\net7.0\p_uno.exe
+C:\Users\gimen\OneDrive\Escritorio\p_uno\bin\Debug\net7.0\p_uno.deps.json
+C:\Users\gimen\OneDrive\Escritorio\p_uno\bin\Debug\net7.0\p_uno.runtimeconfig.json
+C:\Users\gimen\OneDrive\Escritorio\p_uno\bin\Debug\net7.0\p_uno.dll
+C:\Users\gimen\OneDrive\Escritorio\p_uno\bin\Debug\net7.0\p_uno.pdb
+C:\Users\gimen\OneDrive\Escritorio\p_uno\obj\Debug\net7.0\p_uno.csproj.AssemblyReference.cache
+C:\Users\gimen\OneDrive\Escritorio\p_uno\obj\Debug\net7.0\p_uno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gimen\OneDrive\Escritorio\p_uno\obj\Debug\net7.0\p_uno.AssemblyInfoInputs.cache
+C:\Users\gimen\OneDrive\Escritorio\p_uno\obj\Debug\net7.0\p_uno.AssemblyInfo.cs
+C:\Users\gimen\OneDrive\Escritorio\p_uno\obj\Debug\net7.0\p_uno.csproj.CoreCompileInputs.cache
+C:\Users\gimen\OneDrive\Escritorio\p_uno\obj\Debug\net7.0\p_uno.dll
+C:\Users\gimen\OneDrive\Escritorio\p_uno\obj\Debug\net7.0\refint\p_uno.dll
+C:\Users\gimen\OneDrive\Escritorio\p_uno\obj\Debug\net7.0\p_uno.pdb
+C:\Users\gimen\OneDrive\Escritorio\p_uno\obj\Debug\net7.0\p_uno.genruntimeconfig.cache
+C:\Users\gimen\OneDrive\Escritorio\p_uno\obj\Debug\net7.0\ref\p_uno.dll

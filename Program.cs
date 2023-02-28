@@ -22,7 +22,7 @@ try
             Console.WriteLine($"los valores menores o iguales y divisibles en 5 del numero ingresado es {i}");
 
         }
-        while (m <= N)
+        if (m <= N)
         {
             m += 2;//incremento en 2
             Console.WriteLine(" números enteros positivos que comienzan en 1 y se incrementan en 2 hasta que se alcance un valor mayor que N es " + m);
