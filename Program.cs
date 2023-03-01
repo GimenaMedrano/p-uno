@@ -1,40 +1,46 @@
-﻿ushort N;//almacena el numero para  calcular su !
-ushort factorial = 1, m = 1;//tipo de dato de enteros positivos 
+﻿int N;//almacena el numero para  calcular su !
+int factorial = 1, r = 1;//tipo de dato de enteros positivos 
 
 try
 {
-
     Console.WriteLine("inrese un numero entero mayor a 0");
-    N = Convert.ToUInt16(Console.ReadLine());
+    N = Convert.ToInt32(Console.ReadLine());
     if (N > 0)
     {
-        for (ushort i = 1; i <= N; i++)
+        for (int i = 1; i <= N; i++)
         {
             factorial *= i; //calcula el factorial de un numero 
 
-            if ((i <= N) && (i % 3 == 0))
-            {
-                Console.WriteLine($"los valores menores o iguales y divisibles en 3 del numero ingresado es {i}");
-
-            }
-            if ((i <= N) && (i % 5 == 0))
-            {
-
-                Console.WriteLine($"los valores menores o iguales y divisibles en 5 del numero ingresado es {i}");
-
-            }
-            if (m <= N)
-            {
-                m += 2;//incremento en 2
-                Console.WriteLine(" números enteros positivos que comienzan en 1 y se incrementan en 2 hasta que se alcance un valor mayor que N es " + m);
-            }
-
         }
 
-        Console.WriteLine($"el  {N}! es {factorial}");
+        Console.WriteLine($"los valores menores o iguales y divisibles en 3 del numero ingresado son");
+        for (int m = 1; m <= N; m++)
+        {
+            if ((m <= N) && (m % 3 == 0))
+            {
+                Console.WriteLine(m);
+            }
+        }
+
+        Console.WriteLine($"los valores menores o iguales y divisibles en 5 del numero ingresado son");
+        for (int j = 1; j <= N; j++)
+        {
+            if ((j <= N) && (j % 5 == 0))
+            {
+                Console.WriteLine(j);
+            }
+        }
+
+        Console.WriteLine(" números enteros positivos que comienzan en 1 y se incrementan en 2 hasta que se alcance un valor mayor que N es ");
+        while (r <= N)
+        {
+            r += 2;//incremento en 2
+            Console.WriteLine(r);
+        }
+        Console.WriteLine($"El  {N}! es {factorial}");
     }
     else
-    { Console.WriteLine("ingrese un valor mayor a 0");}
+    { Console.WriteLine("ingrese un valor mayor a 0"); }
 }
 catch (Exception e)
 {
