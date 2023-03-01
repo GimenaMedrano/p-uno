@@ -1,5 +1,5 @@
 ﻿int N;//almacena el numero para  calcular su !
-int factorial = 1, r = 1;//tipo de dato de enteros positivos 
+int factorial = 1;//tipo de dato de enteros positivos 
 
 try
 {
@@ -32,12 +32,12 @@ try
         }
 
         Console.WriteLine(" números enteros positivos que comienzan en 1 y se incrementan en 2 hasta que se alcance un valor mayor que N es ");
-        while (r <= N)
+        for (int r=1; r <= N; r+=2)
         {
-            r += 2;//incremento en 2
+            
             Console.WriteLine(r);
         }
-        Console.WriteLine($"El  {N}! es {factorial}");
+        Console.WriteLine($"El  {N}! del numero  es {factorial}");
     }
     else
     { Console.WriteLine("ingrese un valor mayor a 0"); }
